@@ -17,7 +17,7 @@ print("\nKaк заголовок:")
 print(quote.title())
 
 print("\nC ма-а-аленькой заменой:")
-print(quote.replace("штyк пять", "несколько миллионов"))
+print(quote.replace("штук пять", "несколько миллионов"))
 
 print("\nA вот опять исходная цитата:")
 print(quote)
