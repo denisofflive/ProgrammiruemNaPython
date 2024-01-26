@@ -14,6 +14,6 @@ die2 = random.randint(1, 6)
 
 total = die1 + die2
 
-print("Пpи вашем броске выпало", die1, "и", die2, "очков. в сумме", total)
+print("Пpи вашем броске выпало", die1, "и", die2, "очков. В сумме", total)
 
 input("\n\nНажмите Enter, чтобы выйти.")
