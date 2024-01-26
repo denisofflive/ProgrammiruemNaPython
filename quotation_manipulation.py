@@ -2,24 +2,24 @@
 # Демонстрирует строковые методы
 
 # цитата из Томаса Уотсона. который в 1943 г. был директором IBM
-quote = "I think there is a world market for maybe five computers."
+quote = "Думаю. на мировом рынке можно будет продать штук пять компьютеров."
 
-print("Original quote:")
+print("Исходная цитата:")
 print(quote)
 
-print("\nIn uppercase:")
+print("\nOнa же в верхнем регистре:")
 print(quote.upper())
 
-print("\nIn lowercase:")
+print("\nB нижнем регистре:")
 print(quote.lower())
 
-print("\nAs a title:")
+print("\nKaк заголовок:")
 print(quote.title())
 
-print("\nWith a minor replacement:")
-print(quote.replace("five", "millions of"))
+print("\nC ма-а-аленькой заменой:")
+print(quote.replace("штyк пять", "несколько миллионов"))
 
-print("\nOriginal quote is still:")
+print("\nA вот опять исходная цитата:")
 print(quote)
 
-input("\n\nPress the enter key to exit.")
+input("\n\nНажмите Enter, чтобы выйти.")
