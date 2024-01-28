@@ -26,9 +26,3 @@ total = car_price + tax + registration_fee + agency_fee + shipping_cost
 print("Окончательная стоимость автомобиля", total)
 
 input("\nНажмите Enter, чтобы выйти.")
-
-
-
-
-
-
