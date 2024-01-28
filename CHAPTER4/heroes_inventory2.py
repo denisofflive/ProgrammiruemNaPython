@@ -6,7 +6,7 @@ inventory = ("меч",
              "кольчуга",
              "щит",
              "целебное снадобье")
-print("Итaк, в вашем арсенале:")
+print("Итак, в вашем арсенале:")
 for item in inventory:
     print(item)
 
