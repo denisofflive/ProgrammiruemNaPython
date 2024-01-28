@@ -8,6 +8,7 @@ VOWELS = "аеiоuаеёиоуыэюя"
 
 print()
 for letter in message:
+    # если буквы в нижнем регистре нет в гласных
     if letter.lower() not in VOWELS:
         new_message += letter
         print("Создана новая строка:", new_message)
