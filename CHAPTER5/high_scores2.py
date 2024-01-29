@@ -32,8 +32,8 @@ while choice != "0":
 
     # add a score
     elif choice == "2":
-        name = input("Впишите имя игрока:: ")
-        score = int(input("Bnишитe его результат: "))
+        name = input("Впишите имя игрока: ")
+        score = int(input("Впишите его результат: "))
         entry = (score, name)
         scores.append(entry)
         scores.sort(reverse=True)
