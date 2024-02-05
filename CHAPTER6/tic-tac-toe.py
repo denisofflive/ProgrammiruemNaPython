@@ -112,7 +112,7 @@ def human_move(board, human):
     legal = legal_moves(board)
     move = None
     while move not in legal:
-        move = ask_number("Твой ход. Выбери одно из полей СО - 8):", 0, NUM_SQUARES)
+        move = ask_number("Твой ход. Выбери одно из полей c О - 8):", 0, NUM_SQUARES)
         if move not in legal:
             print("\nСмешной человек! Это поле уже занято. Выбери другое.\n")
     print("Ладно..")
